@@ -1,0 +1,35 @@
+// introducing sass directive
+@mixin first-group{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+@mixin second-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@mixin third-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@mixin fourth-group{
+    display: flex;
+    flex-direction: column;
+}
+$mywidth: 100%;
+$mycolor1: #f1f1f1;
+$mycolor2: #ffe979;
+$mycolor3: #282828;
+$mycolor4: #575757;
+$mycolor5: #f6f6f6;
+$mycolor6: #b7f598;
+
+
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
