@@ -1,0 +1,35 @@
+/* ========================= eighth section - faq section */
+
+.faqSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 124px 30px;
+  
+    h1 {
+      margin-bottom: 48px;
+    }
+  }
+  
+  .faqQuestionCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    border-bottom: 1px solid #f1f1f1;
+  
+    &:hover {
+      border-bottom-color: #dfdfdf;
+  
+      i {
+        color: #65ba3b;
+      }
+    }
+  }
+  
+  .faqTitle {
+    flex-grow: 1;
+    font-size: 1.5em;
+  }
+  
