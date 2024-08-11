@@ -1,0 +1,210 @@
+/* ========================= eighth section - faq section */
+.faqSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 124px 30px; }
+  .faqSection h1 {
+    margin-bottom: 48px; }
+
+.faqQuestionCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+  border-bottom: 1px solid #f1f1f1; }
+  .faqQuestionCard:hover {
+    border-bottom-color: #dfdfdf; }
+    .faqQuestionCard:hover i {
+      color: #65ba3b; }
+
+.faqTitle {
+  flex-grow: 1;
+  font-size: 1.5em; }
+
+/* ========================= seventh section - Square Bird section */
+.squareBirdSection {
+  display: flex;
+  flex-direction: row; }
+  .squareBirdSection img {
+    width: 50%;
+    object-fit: cover; }
+
+.squareBirdComment {
+  flex-grow: 1;
+  background-color: #ffe979;
+  display: block;
+  padding: 96px 72px;
+  line-height: 3em; }
+  .squareBirdComment img {
+    width: 40px;
+    margin-right: 15px; }
+  .squareBirdComment h4 {
+    font-size: 1.25em;
+    margin: 0; }
+  .squareBirdComment p {
+    color: #282828;
+    font-size: 2em; }
+  .squareBirdComment a {
+    color: #282828; }
+  .squareBirdComment span {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .squareBirdComment .seperator {
+    width: 100%;
+    margin: 30px 0 50px 0; }
+
+/* ========================= sixth section - Features Grid */
+.featuresGrid {
+  padding: 0px 30px 124px; }
+  .featuresGrid .featuresGridList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px; }
+  .featuresGrid .featuresBanner {
+    margin: 20px 0;
+    min-width: 200px;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .featuresGrid .featuresBanner img {
+      margin-bottom: 32px;
+      height: 75px;
+      width: auto; }
+    .featuresGrid .featuresBanner h3 {
+      margin-bottom: 10px;
+      font-size: 20px; }
+    .featuresGrid .featuresBanner p {
+      color: #575757;
+      font-size: 16px; }
+
+/* ========================= fifth section - Installation Number Section */
+.installationNumberSection {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 96px 0px 24px 0px;
+  border-top: solid #f1f1f1;
+  background-image: url("src/shape-bg-9.svg");
+  background-position: 0% 0%;
+  border-top-width: 1.5px; }
+  .installationNumberSection h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px; }
+  .installationNumberSection p {
+    font-size: 1.2em;
+    color: #575757; }
+
+/* ========================= forth section - Discover More Banners */
+.discoverMoreSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0px 96px 0px; }
+  .discoverMoreSection h1 {
+    font-size: 3em; }
+  .discoverMoreSection p {
+    font-size: 1.125em;
+    color: #575757;
+    margin-bottom: 48px; }
+  .discoverMoreSection .roundedCornerBorderButton {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px 32px;
+    background-color: #282828;
+    color: white;
+    text-decoration: none; }
+    .discoverMoreSection .roundedCornerBorderButton i {
+      margin-left: 12px; }
+  .discoverMoreSection .discoverMoreGridList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px; }
+  .discoverMoreSection .discoverMoreBanner {
+    margin-top: 20px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 373px;
+    text-align: center; }
+    .discoverMoreSection .discoverMoreBanner h3 {
+      font-size: 1.5em;
+      margin-bottom: 12px;
+      font-weight: 400;
+      margin-top: 0px; }
+    .discoverMoreSection .discoverMoreBanner p {
+      font-size: 1em;
+      color: #575757;
+      line-height: 1.6em; }
+    .discoverMoreSection .discoverMoreBanner img {
+      max-width: 373px;
+      height: auto;
+      margin-bottom: 32px; }
+
+/* ========================= third section - builders sample images */
+.builderSampleImagesSection {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px; }
+  .builderSampleImagesSection .logo {
+    width: 10%;
+    height: auto; }
+  .builderSampleImagesSection p {
+    font-size: 1.125em;
+    color: #575757;
+    margin-bottom: 48px; }
+  .builderSampleImagesSection h1 {
+    font-size: 3em;
+    margin-bottom: 0; }
+
+.builderImagesList {
+  display: flex;
+  align-items: start; }
+  .builderImagesList .list {
+    flex-grow: 1;
+    padding-inline-start: 0;
+    margin-right: 3%; }
+    .builderImagesList .list a {
+      display: flex;
+      text-decoration: none;
+      color: black; }
+    .builderImagesList .list li {
+      display: flex;
+      text-decoration: none;
+      color: black;
+      list-style-type: none;
+      font-size: 1.25em; }
+      .builderImagesList .list li i {
+        margin-right: 12px; }
+    .builderImagesList .list .listItem {
+      padding: 13px 24px;
+      margin-bottom: 24px;
+      flex-grow: 1; }
+      .builderImagesList .list .listItem:hover {
+        background-color: #f6f6f6; }
+
+.layoutBuilderImage {
+  width: 75%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  vertical-align: top; }
+
+/*# sourceMappingURL=main-screen-style.css.map */

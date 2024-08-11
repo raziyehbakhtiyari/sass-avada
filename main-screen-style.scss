@@ -211,4 +211,76 @@
       }
     }
   }
+  /* ========================= third section - builders sample images */
+  .builderSampleImagesSection {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+  
+    .logo {
+      width: 10%;
+      height: auto;
+    }
+  
+    p {
+      font-size: 1.125em;
+      color: #575757;
+      margin-bottom: 48px;
+    }
+  
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+  }
+  
+  .builderImagesList {
+    display: flex;
+    align-items: start;
+  
+    .list {
+      flex-grow: 1;
+      padding-inline-start: 0;
+      margin-right: 3%;
+  
+      a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+      }
+  
+      li {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        list-style-type: none;
+        font-size: 1.25em;
+  
+        i {
+          margin-right: 12px;
+        }
+      }
+  
+      .listItem {
+        padding: 13px 24px;
+        margin-bottom: 24px;
+        flex-grow: 1;
+  
+        &:hover {
+          background-color: #f6f6f6;
+        }
+      }
+    }
+  }
+  
+  .layoutBuilderImage {
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    vertical-align: top;
+  }
   
