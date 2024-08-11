@@ -359,4 +359,55 @@
   .professionalChipColor {
     background-color: #1698c0;
   }
+  /* ========================= First Section - Home Banner */
+  .initialBannerSection {
+    display: flex;
+    height: 100%;
+    margin-bottom: 48px;
+  
+    .initialBannerSectionImage {
+      width: 55%;
+      height: auto;
+      margin-left: 32px;
+      float: right;
+      object-fit: contain;
+    }
+  
+    p {
+      font-size: 1.125em;
+      color: #575757;
+      margin-bottom: 32px;
+    }
+  
+    h1 {
+      font-size: 4em;
+      letter-spacing: -0.96px;
+      line-height: 32px;
+    }
+  
+    .startBuildingButton {
+      background-color: #282828;
+      color: white;
+      width: fit-content;
+      font-size: 1.25em;
+      padding: 16px 32px;
+  
+      i {
+        margin-left: 14px;
+      }
+    }
+  
+    .initialBannerStatisticsOverviewSection {
+      display: flex;
+  
+      span {
+        margin-right: 32px;
+      }
+    }
+  
+    .seperator {
+      margin-top: 48px;
+      margin-bottom: 32px;
+    }
+  }
   
